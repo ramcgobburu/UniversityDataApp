@@ -25,6 +25,10 @@ However we can overcome this by using SerenityRest framework on this to achieve 
 We can run the test suite with junit and also with maven builder. <br />
 To run , we need to set the run configuration with **Goal : clean verify serenity:aggregate. **   <br />
 
+**Reports:**
+
+Once run , to view the repots , we need to refresh the project, go to **Target->site->serenity->index.html**  <br />
+
 **Sources:** <br />
 https://apipheny.io/free-api/ <br />
 https://serenity-bdd.github.io/theserenitybook/latest/index.html  <br />
