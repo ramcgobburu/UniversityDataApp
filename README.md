@@ -14,7 +14,7 @@ The query parameters it would take is country name, university name, webpages, d
 **Pros:** <br />
 This framework gives a very beautiful reports of the test execution. The report comprises of story details, feature details and all the steps involved. <br />
 Easy to undertand: The BDD framework would help in understanding the flow of the test, as it will be coded in given , when and then , any user can understand what and why the result is yielded. <br />
-Serenity BDD provides us many annotations such as @Title, @Runwith, @WithTags to differentiate the tests we run and cluster them.< br />
+Serenity BDD provides us many annotations such as @Title, @Runwith, @WithTags to differentiate the tests we run and cluster them. <br />
 Data driven testing is also possible by using annotation @RunWith(SerenityParametrizedRunner.class) which takes the input from a csv file. ( which is not used here in the demo) <br/ >
 **Cons:**
 We will not have the request details ( the input JSON) to see what request we have passed to get any particular result. <br />
